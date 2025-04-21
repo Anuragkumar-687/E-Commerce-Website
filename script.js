@@ -3,42 +3,42 @@ const products = [
         id: 1,
         title: "Smartphone Pro Max",
         category: "electronics",
-        price: 1,50,000,
+        price: 150000,
         image: "https://www.apple.com/v/iphone/home/cb/images/meta/iphone__kqge21l9n26q_og.png"
     },
     {
         id: 2,
         title: "Wireless Headphones",
         category: "electronics",
-        price: 2,999,
+        price: 2999,
         image: "https://m.media-amazon.com/images/I/71zfpkr4bYL._SX679_.jpg"
     },
     {
         id: 3,
         title: "Men's Casual T-Shirt",
         category: "clothing",
-        price: 1,500,
+        price: 1500,
         image: "https://m.media-amazon.com/images/I/71axOQHBUhL._SY879_.jpg"
     },
     {
         id: 4,
         title: "Women's Running Shoes",
         category: "clothing",
-        price: 3,999,
+        price: 3999,
         image: "https://m.media-amazon.com/images/I/81JEmrWRp1L._SY695_.jpg"
     },
     {
         id: 5,
         title: "Coffee Maker",
         category: "home",
-        price: 2,899,
+        price: 2899,
         image: "https://m.media-amazon.com/images/I/61zdqgKDffL._SX679_.jpg"
     },
     {
         id: 6,
         title: "Non-Stick Cookware Set",
         category: "home",
-        price: 2,500,
+        price: 2500,
         image: "https://m.media-amazon.com/images/I/81IcLYCiWKL._SX679_.jpg"
     },
     {
