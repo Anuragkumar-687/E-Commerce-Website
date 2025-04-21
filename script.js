@@ -3,56 +3,56 @@ const products = [
         id: 1,
         title: "Smartphone Pro Max",
         category: "electronics",
-        price: 899.99,
+        price: 1,50,000,
         image: "https://www.apple.com/v/iphone/home/cb/images/meta/iphone__kqge21l9n26q_og.png"
     },
     {
         id: 2,
         title: "Wireless Headphones",
         category: "electronics",
-        price: 149.99,
+        price: 2,999,
         image: "https://m.media-amazon.com/images/I/71zfpkr4bYL._SX679_.jpg"
     },
     {
         id: 3,
         title: "Men's Casual T-Shirt",
         category: "clothing",
-        price: 24.99,
+        price: 1,500,
         image: "https://m.media-amazon.com/images/I/71axOQHBUhL._SY879_.jpg"
     },
     {
         id: 4,
         title: "Women's Running Shoes",
         category: "clothing",
-        price: 79.99,
+        price: 3,999,
         image: "https://m.media-amazon.com/images/I/81JEmrWRp1L._SY695_.jpg"
     },
     {
         id: 5,
         title: "Coffee Maker",
         category: "home",
-        price: 69.99,
+        price: 2,899,
         image: "https://m.media-amazon.com/images/I/61zdqgKDffL._SX679_.jpg"
     },
     {
         id: 6,
         title: "Non-Stick Cookware Set",
         category: "home",
-        price: 129.99,
+        price: 2,500,
         image: "https://m.media-amazon.com/images/I/81IcLYCiWKL._SX679_.jpg"
     },
     {
         id: 7,
         title: "Yoga Mat",
         category: "sports",
-        price: 29.99,
+        price: 999,
         image: "https://m.media-amazon.com/images/I/61+J--H8kHL._SX679_.jpg"
     },
     {
         id: 8,
         title: "Basketball",
         category: "sports",
-        price: 19.99,
+        price: 899,
         image: "https://m.media-amazon.com/images/I/81f4weUqUzL._SX679_.jpg"
     }
 ];
@@ -90,7 +90,7 @@ function displayProducts(category = 'all') {
             <div class="product-info">
                 <h3 class="product-title">${product.title}</h3>
                 <p class="product-category">${product.category}</p>
-                <p class="product-price">$${product.price.toFixed(2)}</p>
+                <p class="product-price">₹${product.price.toFixed(2)}</p>
                 <button class="product-btn" data-id="${product.id}">Add to Cart</button>
             </div>
         `;
